@@ -66,5 +66,15 @@ Sonya is built on **ElisaOS**, leveraging its modular, open-source foundation. T
 Sonya is not just an AI agent; she’s an experience. Designed for users seeking more than surface-level interactions, she transforms conversations into opportunities for growth, learning, and connection.
 
 ---
+## Usage
+```
+pnpm install
+cp .env.example .env
+# fill .env according to docs: https://elizaos.github.io/eliza/docs/quickstart/
+# pnpm start --characters="characters/sonya.character.json"
+pnpm start
+```
+
+---
 
 Start your journey with Sonya today and experience the power of meaningful AI-driven conversations!

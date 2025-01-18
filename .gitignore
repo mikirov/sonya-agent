@@ -8,3 +8,8 @@ dist/
 
 db.sqlite
 .idea
+
+.env
+.env.*
+characters/**/secrets.json
+**/serviceAccount.json
