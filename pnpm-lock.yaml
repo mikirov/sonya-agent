@@ -71,12 +71,18 @@ importers:
       net:
         specifier: 1.0.2
         version: 1.0.2
+      optional:
+        specifier: ^0.1.4
+        version: 0.1.4
       path:
         specifier: 0.12.7
         version: 0.12.7
       readline:
         specifier: 1.3.0
         version: 1.3.0
+      sharp:
+        specifier: ^0.33.5
+        version: 0.33.5
       url:
         specifier: 0.11.4
         version: 0.11.4

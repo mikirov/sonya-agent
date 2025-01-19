@@ -66,6 +66,11 @@ Sonya is built on **ElisaOS**, leveraging its modular, open-source foundation. T
 Sonya is not just an AI agent; she’s an experience. Designed for users seeking more than surface-level interactions, she transforms conversations into opportunities for growth, learning, and connection.
 
 ---
+
+## Requirements
+- Node.js 23
+- Docker Engine
+- Cuda support Recommended
 ## Usage
 ```
 pnpm install
