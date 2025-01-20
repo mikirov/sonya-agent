@@ -13,16 +13,16 @@ services:
     network_mode: "host"  # Use host network
     restart: always
 
-#   db:
-#     image: postgres:15
-#     container_name: postgres-db
-#     environment:
-#       POSTGRES_USER: postgres
-#       POSTGRES_PASSWORD: password
-#       POSTGRES_DB: sonya
-#     volumes:
-#       - postgres-data:/var/lib/postgresql/data
-#     network_mode: "host"  # Use host network
+  db:
+    image: postgres:15
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: sonya
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    network_mode: "host"  # Use host network
 
 #   # Adminer service
 #   adminer:
