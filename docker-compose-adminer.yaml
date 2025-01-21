@@ -11,5 +11,17 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
+
+  # Adminer service
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    environment:
+      ADMINER_DEFAULT_SERVER: localhost
+    depends_on:
+      - sonya-db
+    ports:
+      - "8080:8080"
+
 volumes:
   pgdata: # Stores data outside the container to ensure persistence

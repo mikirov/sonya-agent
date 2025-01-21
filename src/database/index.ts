@@ -7,6 +7,10 @@ export function initializeDatabase(dataDir: string) {
   if (process.env.POSTGRES_URL) {
     const db = new PostgresDatabaseAdapter({
       connectionString: process.env.POSTGRES_URL,
+      parseInputs: true,
+      ssl: process.env.POSTGRES_URL.includes("localhost")
+          ? undefined
+          : { rejectUnauthorized: false },
     });
     return db;
   } else {
