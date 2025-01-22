@@ -17,7 +17,7 @@ services:
     image: adminer:latest
     container_name: adminer
     environment:
-      ADMINER_DEFAULT_SERVER: localhost
+      ADMINER_DEFAULT_SERVER: localhost:5434
     depends_on:
       - sonya-db
     ports:

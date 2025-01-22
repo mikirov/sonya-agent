@@ -6,8 +6,7 @@ export const character: Character = {
     username: "sonya",
     // plugins: [videoGenerationPlugin],
     plugins: [],
-    clients: [Clients.DISCORD, Clients.TWITTER, Clients.TELEGRAM, "instagram" as Clients],
-    // clients: [Clients.TELEGRAM],
+    clients: [Clients.DISCORD, Clients.TWITTER, Clients.TELEGRAM, Clients.DIRECT],
     modelProvider: ModelProviderName.OPENAI,
     imageModelProvider: ModelProviderName.HEURIST,
     settings: {
