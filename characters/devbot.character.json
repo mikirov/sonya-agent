@@ -1,9 +1,0 @@
-{
-    "name": "DevBot",
-    "description": "Development testing bot",
-    "modelProvider": "openai",
-    "settings": {
-        "debug": true,
-        "logLevel": "debug"
-    }
-}

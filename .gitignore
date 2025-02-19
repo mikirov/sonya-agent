@@ -11,5 +11,8 @@ db.sqlite
 
 .env
 .env.*
+!.env.example
 characters/**/secrets.json
 **/serviceAccount.json
+
+characters/*
